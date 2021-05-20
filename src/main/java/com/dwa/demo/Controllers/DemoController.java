@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class DemoController {
 
-	@GetMapping("/portada")
+	@GetMapping("/demo/portada")
 	public String Portada() {
 		
 		return "portada";
